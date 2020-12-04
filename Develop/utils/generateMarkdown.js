@@ -1,37 +1,36 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  ## Title
   # ${data.title}
 
   ## Description
-  # ${data.description}
+  ${data.description}
 
   ## Table of Contents
-  # ${data.contents}
+  ${data.contents}
 
   ## Installation
   
   *Steps required to install project and how to get the development environment running:*
-  # ${data.installation}
+  ${data.installation}
 
   ## Usage 
   
   *Instructions and examples for use:*
-  # ${data.usage}
+  ${data.usage}
 
   ## License
-  # ${data.license}
+  ${data.license}
 
   ## Contributing
   
   *Follow these guidelines for how to use the code.*
-  # ${data.contributing}
+  ${data.contributing}
 
   ## Tests
   
   *Tests for application and how to run them:*
-  # ${data.test}
+  ${data.test}
   
 `;
 }
