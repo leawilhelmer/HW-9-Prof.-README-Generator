@@ -27,7 +27,6 @@ const questions = [
         message: 'What is the title for the Project?',
       },
 
-
       {
         type: 'input',
         name: 'description',
@@ -71,6 +70,12 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'Provide example how to run the code',
+      },
+
+      {
+        type: 'input',
+        name: 'questions',
+        message: 'Enter any questions.',
       },
 
 
