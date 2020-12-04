@@ -19,3 +19,4 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Video Guide
 
+https://drive.google.com/file/d/1luXpMjdJL9AzzUNh2_ag-f9jIrYEhYv8/view
