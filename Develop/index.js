@@ -9,18 +9,7 @@ const path = require('path')
 
 // array of questions for user
 const questions = [
-    {
-        type: 'input',
-        name: 'username',
-        message: 'What is your Github username?',
-      },
-
-      {
-        type: 'input',
-        name: 'email',
-        message: 'What is your E-Mail address?',
-      },
-
+  
       {
         type: 'input',
         name: 'title',
@@ -78,6 +67,17 @@ const questions = [
         message: 'Enter any questions.',
       },
 
+      {
+        type: 'input',
+        name: 'username',
+        message: 'What is your Github username?',
+      },
+
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your E-Mail address?',
+      },
 
 
 ];
