@@ -27,6 +27,7 @@ const questions = [
         message: 'What is the title for the Project?',
       },
 
+
       {
         type: 'input',
         name: 'description',
@@ -46,6 +47,12 @@ const questions = [
       },
 
       {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide the project usage',
+      },
+
+      {
         type: 'list',
         name: 'license',
         message: 'What kind of license did you use?',
@@ -53,6 +60,19 @@ const questions = [
             "MIT", "APACHE 2.0", "GPL 3.0", "none"
         ]
       },
+
+      {
+        type: 'input',
+        name: 'contributing',
+        message: 'Introduce your project to help people start using it.',
+      },
+
+      {
+        type: 'input',
+        name: 'test',
+        message: 'Provide example how to run the code',
+      },
+
 
 
 ];
